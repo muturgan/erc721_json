@@ -38,7 +38,7 @@ contract Base64Json is ERC721Enumerable
 			card.beast,
 			'.jpg","attributes":[{"trait_type":"Beast","value":"',
 			card.beast,
-			'"},{"trait_type":"Action"","value":"',
+			'"},{"trait_type":"Action","value":"',
 			card.action,
 			'"},{"trait_type":"Rare","value":"',
 			card.rare,
