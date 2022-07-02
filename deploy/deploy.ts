@@ -17,8 +17,18 @@ const deployFunction: DeployFunction = async (hre) => {
 		from: deployer,
 		log: true,
 	});
+
+	await deploy('Base64JsonWithEncodedImage', {
+		from: deployer,
+		log: true,
+	});
+
+	await deploy('PureJsonWithEncodedImage', {
+		from: deployer,
+		log: true,
+	});
 };
 
-deployFunction.tags = ['Base64Json', 'PureJson'];
+deployFunction.tags = ['Base64Json', 'PureJson', 'Base64JsonWithEncodedImage', 'PureJsonWithEncodedImage'];
 
 export default deployFunction;
