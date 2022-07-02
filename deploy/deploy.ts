@@ -8,12 +8,17 @@ const deployFunction: DeployFunction = async (hre) => {
 
 	const { deployer } = await getNamedAccounts();
 
-	await deploy('ContractName', {
+	await deploy('Base64Json', {
+		from: deployer,
+		log: true,
+	});
+
+	await deploy('PureJson', {
 		from: deployer,
 		log: true,
 	});
 };
 
-deployFunction.tags = ['ContractName'];
+deployFunction.tags = ['Base64Json', 'PureJson'];
 
 export default deployFunction;
