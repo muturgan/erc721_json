@@ -1,2 +1,2 @@
-# hardhat-template
-a basic template for hardhat projectes
+# erc721_json
+just practicing to return a json string from the tokenURI method call

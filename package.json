@@ -1,7 +1,7 @@
 {
-  "name": "hardhat-template",
+  "name": "erc721_json",
   "version": "1.0.0",
-  "description": "a basic template for hardhat projectes",
+  "description": "just practicing to return a json string from the tokenURI method call",
   "author": "Andrey Sakharov <caxap_8787@mail.ru> (https://www.linkedin.com/in/andrey-sakharov/)",
   "license": "MIT",
   "engines": {
@@ -21,13 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muturgan/hardhat-template.git"
+    "url": "git+https://github.com/muturgan/erc721_json.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/muturgan/hardhat-template/issues"
+    "url": "https://github.com/muturgan/erc721_json/issues"
   },
-  "homepage": "https://github.com/muturgan/hardhat-template#readme",
+  "homepage": "https://github.com/muturgan/erc721_json#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-etherscan": "^3.1.0",
     "@openzeppelin/contracts": "^4.6.0",
